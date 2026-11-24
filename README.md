@@ -1,102 +1,91 @@
-
-<div class="example"><script src="https://keepandroidopen.org/banner.js"></script></div>
-#Credits To Aurora Store
-This Is An OSS alternative To Indus Appstore
 # Climper Store
 ### By Project Climper (CoolPyparusDude)
+Climper Store is an open-source alternative to Indus Appstore. It is a rebrand/fork of Aurora Store, and we credit the Aurora OSS team for the original app, design, and features. Climper Store is independently maintained by Project Climper. 
+#:D
+<div class="example"><script src="https://keepandroidopen.org/banner.js"></script></div>
 
-*Climper Store is a rebrand/fork built and maintained by Project Climper. This README and rebrand was put together with help from Tencent Hy3.*
+> Climper Store is an open-source rebrand/fork of Aurora Store, an alternative app store client for Google Play. It is based on the work of the Aurora OSS team. **All credit for Aurora Store’s original app, design, and features belongs to the Aurora OSS team.** Climper Store is independently maintained by Project Climper and is not affiliated with or endorsed by Aurora OSS, Google, Google Play, or Indus Appstore.
 
-Climper Store enables you to search and download apps from the official Google Play store. You can check app descriptions, screenshots, updates, reviews, and download the APK directly from Google Play to your device.
+This README and rebrand was put together with help from Tencent Hy3.
 
-To use Climper Store, log in using your Google Play account when you first open and configure the app.
+Climper Store lets you search for and download apps from Google Play. You can view app descriptions, screenshots, updates, and reviews, and download APKs directly from Google Play to your device.
 
-Unlike a traditional app store, Climper Store does not own, license or distribute any apps. All apps, app descriptions, screenshots and other content are directly accessed, downloaded and/or displayed from Google Play.
+To use Climper Store, sign in with a Google Play account when you first open and configure the app.
 
-Climper Store works exactly like a door or a browser, allowing you to log in to your Google Play account and find the apps from Google Play.
+Climper Store does not own, license, or host the apps it lists. App listings, descriptions, screenshots, and other content are accessed from Google Play.
 
-*_Please note that Climper Store does not have any approval, sponsorship or authorization from Google, Google Play, any apps downloaded through it, or any app developers; neither does it have any affiliation, cooperation or connection with them._*
+**Disclaimer:** Climper Store is not approved, sponsored, or authorized by Google, Google Play, Indus Appstore, or the developers of apps available through it. It is not affiliated or partnered with any of them.
 
 ## Features
 
-- FOSS: Has GPLv3 licence
-- Beautiful design: Built upon latest Material 3 guidelines
-- Account login: You can login with either personal or an anonymous account
-- Device & Locale spoofing: Change your device and/or locale to access geo locked apps
-- Privacy integration: Instantly see trackers in app
-- Compatibility integration: Instantly see app compatibility without Google Play Services or with microG
-- Updates blacklisting: Ignore updates for specific apps
-- Download manager
-- Manual downloads: allows you to download older version of apps, provided
-  - The APKs are available with Google
-  - You know the version codes for older versions
+- Free and open source software, licensed under GPL-3.0.
+- Material 3-based design.
+- Sign in with a personal or anonymous account.
+- Device and locale spoofing to access region-specific listings.
+- Privacy information and tracker detection.
+- App compatibility information for devices without Google Play Services or with microG.
+- Update blacklisting to ignore updates for selected apps.
+- Download manager.
+- Manual downloads of older app versions, when the APK is available through Google Play and you know the version code.
 
 ## Limitations
 
-- The underlying API used is reversed engineered from the Google Play Store, changes on side may break it.
-- Provides only base minimum features
-  - Can not download or update paid apps.
-  - Can not update apps/games with Play Asset Delivery
-- Multiple in-app features are not available if logged in as Anonymous.
+- Climper Store relies on a reverse-engineered Google Play API. Changes to Google Play may cause features to stop working.
+- Paid apps cannot be downloaded or updated.
+- Apps and games using Play Asset Delivery cannot be updated.
+- Some features are unavailable when using an anonymous account, including:
   - Library
-  - Purchase History
-  - Editor's choice
-  - Beta Programs
-  - Review Add/Update
-- Token dispenser server is not super reliable, downtimes are expected.
+  - Purchase history
+  - Editor’s Choice
+  - Beta programs
+  - Writing or updating reviews
+- The token dispenser server may experience downtime.
 
 ## AI Usage
 
-Climper Store is developed with the help of AI tooling. Here is what that means.
+Climper Store is developed with the help of AI tools.
 
 **In this project**
 
-- AI assistance is used in day to day development: writing and refactoring code, reviewing diffs, and drafting documentation.
-- Nothing gets merged that a maintainer has not read, understood and tested. Generated code is a starting point, not a finished result.
-- Accountability does not change. Whatever ships in Climper Store is the maintainers' responsibility, no matter how it was written.
+- AI assistance may be used for coding, refactoring, reviewing changes, and drafting documentation.
+- Maintainers review, understand, and test changes before merging them. Generated code is a starting point, not a finished result.
+- Maintainers remain responsible for everything shipped in Climper Store.
 
 **In contributions**
 
-- You are welcome to use AI tooling on your contributions. Just mention it in the merge request description.
-- You are still responsible for what you send. Be ready to explain how your change works, and to show that you built and tested it yourself.
-- Merge requests and issue reports that are plainly unreviewed model output (calls to APIs that do not exist, unrelated changes, made up bug reports) will be closed without review.
+- Contributors may use AI tools. Please disclose their use in the merge request description.
+- Contributors are responsible for their submissions and should be able to explain, build, and test their changes.
+- Reports or contributions that appear to be unreviewed AI output, such as invented APIs or fabricated bug reports, may be closed without review.
 
 ## Downloads
 
-Get the latest stable releases here:
-
-**github.com/CoolPyparusDude/ProjectClimper/releases**
+Get stable releases from the [Project Climper releases page](https://github.com/CoolPyparusDude/ProjectClimper/releases).
 
 ## Support
 
-Climper Store is still in on-going development! Bugs are to be expected! Any bug reports are appreciated.
+Climper Store is under active development, so bugs are expected. Bug reports are appreciated.
 
 ## Permissions
 
-- `android.permission.INTERNET` to download and install/update apps from the Google Play servers
-- `android.permission.ACCESS_NETWORK_STATE` to check internet availability
-- `android.permission.FOREGROUND_SERVICE` to download apps without interruption
-- `android.permission.FOREGROUND_SERVICE_DATA_SYNC` to download apps without interruption
-- `android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS` to auto-update apps without interruption (optional)
-- `android.permission.MANAGE_EXTERNAL_STORAGE` to access the OBB directory to download APK expansion files for games or large apps
-- `android.permission.READ_EXTERNAL_STORAGE` to access the OBB directory to download APK expansion files for games or large apps
-- `android.permission.WRITE_EXTERNAL_STORAGE` to access the OBB directory to download APK expansion files for games or large apps
-- `android.permission.QUERY_ALL_PACKAGES` to check updates for all installed apps
-- `android.permission.REQUEST_INSTALL_PACKAGES` to install and update apps
-- `android.permission.REQUEST_DELETE_PACKAGES` to uninstall apps
-- `android.permission.ENFORCE_UPDATE_OWNERSHIP` to silently update apps
-- `android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION` to silently update apps
-- `android.permission.POST_NOTIFICATIONS` to notify user about ongoing downloads, available updates, and errors (optional)
-- `android.permission.USE_CREDENTIALS` to allow users to sign into their personal Google account via microG
+- `android.permission.INTERNET` — connect to Google Play servers to download apps and updates.
+- `android.permission.ACCESS_NETWORK_STATE` — check network availability.
+- `android.permission.FOREGROUND_SERVICE` and `android.permission.FOREGROUND_SERVICE_DATA_SYNC` — keep downloads running in the background.
+- `android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS` — help optional automatic updates run without interruption.
+- `android.permission.MANAGE_EXTERNAL_STORAGE`, `android.permission.READ_EXTERNAL_STORAGE`, and `android.permission.WRITE_EXTERNAL_STORAGE` — access OBB files for app expansion data, where supported by the Android version.
+- `android.permission.QUERY_ALL_PACKAGES` — check installed apps for updates.
+- `android.permission.REQUEST_INSTALL_PACKAGES` — install or update downloaded apps.
+- `android.permission.REQUEST_DELETE_PACKAGES` — request app uninstallation.
+- `android.permission.ENFORCE_UPDATE_OWNERSHIP` and `android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION` — support update flows where the Android version and system allow them.
+- `android.permission.POST_NOTIFICATIONS` — show download, update, and error notifications (optional).
+- `android.permission.USE_CREDENTIALS` — support signing in with a personal Google account through microG.
 
 ## Screenshots
 
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-01.png" height="400">
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-03.png" height="400">
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-07.png" height="400">
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-08.png" height="400">
+<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-01.png" height="400" alt="Climper Store screenshot">
+<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-03.png" height="400" alt="Climper Store screenshot">
+<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-07.png" height="400" alt="Climper Store screenshot">
+<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-08.png" height="400" alt="Climper Store screenshot">
 
 ## Donations
 
-Climper Store is a side project — we don't need donations right now. If it grows popular enough to be hard to manage, we'll revisit that.
-
+Climper Store is a side project. We are not accepting donations at this time. If that changes, this section will be updated.
