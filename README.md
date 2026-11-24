@@ -2,7 +2,6 @@
 ### By Project Climper (CoolPyparusDude)
 Climper Store is an open-source alternative to Indus Appstore. It is a rebrand/fork of Aurora Store, and we credit the Aurora OSS team for the original app, design, and features. Climper Store is independently maintained by Project Climper. 
 #:D
-<div class="example"><script src="https://keepandroidopen.org/banner.js"></script></div>
 
 > Climper Store is an open-source rebrand/fork of Aurora Store, an alternative app store client for Google Play. It is based on the work of the Aurora OSS team. **All credit for Aurora Store’s original app, design, and features belongs to the Aurora OSS team.** Climper Store is independently maintained by Project Climper and is not affiliated with or endorsed by Aurora OSS, Google, Google Play, or Indus Appstore.
 
@@ -78,13 +77,6 @@ Climper Store is under active development, so bugs are expected. Bug reports are
 - `android.permission.ENFORCE_UPDATE_OWNERSHIP` and `android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION` — support update flows where the Android version and system allow them.
 - `android.permission.POST_NOTIFICATIONS` — show download, update, and error notifications (optional).
 - `android.permission.USE_CREDENTIALS` — support signing in with a personal Google account through microG.
-
-## Screenshots
-
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-01.png" height="400" alt="Climper Store screenshot">
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-03.png" height="400" alt="Climper Store screenshot">
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-07.png" height="400" alt="Climper Store screenshot">
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-08.png" height="400" alt="Climper Store screenshot">
 
 ## Donations
 
